@@ -1,0 +1,297 @@
+.topbar
+{
+    display:flex;
+    flex-direction:row;
+    justify-content:space-evenly;
+    align-items:center;
+    padding-left:90px;
+    padding-right:90px;
+    padding-bottom:10px;
+    margin-top:0px;
+    padding-top:10px;
+    box-shadow:2px 2px 6px #eee;
+    background-color:white;
+    width:100%;
+    margin-right:90px;
+    box-sizing:border-box;
+    position:fixed;
+    top:0;
+    z-index:1;
+    
+}
+
+.tophead
+{
+    font-size:40px;
+    text-transform:uppercase;
+    font-weight:600;
+    margin:0;
+}
+.topspan
+{
+    font-weight:300;
+    font-size:40px;
+    margin:0;
+}
+.citem
+{
+    color:black;
+    text-decoration:none;
+    text-transform:uppercase;
+    font-weight:600;
+    font-size:20px;
+    margin:0;
+}
+.inputitem
+{
+    font-size:15px;
+    width:300px;
+    padding:7px;
+    background-color:#eee;
+    border:none;
+    
+    align-items:center;
+    box-sizing:border-box;
+    margin-top:5px;
+    outline: none;
+}
+.shopcart
+{
+    font-size:30px;
+    margin:0;
+}
+.qimage
+{
+    width:50px;
+    border-radius:50%;
+    margin:0;
+}
+.search
+{
+    font-size:20px;
+    background-color:#eee;
+    padding:5px;
+    color:gray;
+    opacity:0.7;
+    margin:0;
+}
+.count
+{
+    width:20px;
+    
+    border-radius:50%;
+    background-color:teal;
+    color:rgb(223, 204, 204);
+    position : fixed;
+    top:10px;
+    right:230px;
+    font-size:20px;
+    text-align:center;
+}
+
+
+
+
+
+.caurosel
+{
+  z-index:0;
+  margin-top:60px;
+}
+
+body{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+
+img{
+    width:100%;
+    
+    margin-top:40px;
+    outline: none;
+}
+.slick-slide img{
+
+   width:80%;
+   
+   margin-left:10%;
+   margin-right:10%;
+  
+}
+.slick-slide{
+    float:left;
+    height:50%;
+    box-sizing:border-box;
+    
+    min-height:1px;
+}
+
+.slick-dots
+{
+    display: -webkit-flex;
+    display: -moz-flex;
+    display:-ms-flex;
+    display:-o-flex;
+    display:flex;
+    justify-content:center;
+    margin:0;
+    padding:16px 0;
+    list-style:none;
+    bottom:45px;
+    position:absolute;
+    top:95%;
+    left:50%;
+    
+}
+.slick-dots li{
+    margin: 0 0.25rem;
+    background:#fff;
+    border-radius:50%;
+
+
+}
+.slick-dots button{
+    display:block;
+    width:16px;
+    height:16px;
+    padding:0;
+    border:none;
+    border-radius:50%;
+
+}
+.slick-dots li.slick-active button{
+    background-color:gray;
+}
+
+
+#cloths
+{
+    z-index:0;
+    margin-top:60px;
+    
+}
+
+
+.imagecard
+{
+    width:18%;
+    height:500px;
+    box-shadow:2px 2px 6px #eee;
+    margin-left:15px;
+    box-sizing:border-box;
+}
+.image
+{
+   
+    height:300px;
+    margin:0;
+}
+.maincards
+{
+    margin-top:50px;
+    display:flex;
+    flex-wrap:wrap;
+    margin-left:4%;
+}
+.headtype
+{
+    font-weight:600;
+}
+.desctype
+{
+    font-size:20px;
+
+}
+.pricetype
+{
+    color:teal;
+    font-size:24px;
+    font-weight:600;
+}
+.maincardstwo
+{
+    margin-top:50px;
+    display:flex;
+    flex-wrap:wrap;
+    margin-left:4%;
+
+}
+#accessories
+{
+    z-index:0;
+    margin-top:60px;
+}
+.allsectors
+{
+    width:100%;
+    height:50vh;
+    margin-top:10%;
+    background-color:black;
+}
+.online
+{
+    display:flex;
+    flex-direction:column;
+}
+.helpful
+{
+    display:flex;
+    flex-direction:column;
+}
+
+.partners
+{
+    display:flex;
+    flex-direction:column;
+}
+
+.address
+{
+    display:flex;
+    flex-direction:column;
+}
+.allsectors
+{
+    display:flex;
+    flex-direction:row;
+    flex-wrap:wrap;
+    justify-content: space-evenly;
+   padding-top:130px;
+   box-sizing:border-box;
+}
+.footeritem
+{
+    text-decoration:none;
+    color:white;
+    font-size:18px;
+    cursor:pointer;
+    padding-top:10px;
+    text-transform:uppercase;
+ opacity:0.7;
+
+}
+.foohead
+{
+    color:white;
+    text-transform:uppercase;
+    font-size:22px;
+    margin:0;
+}
+.edyodaimage
+{
+    width:150px;
+    height:80px;
+    position:absolute;
+    top:80%;
+    right:60px;
+    z-index:1;
+    position:fixed;
+}
+
+
+
+
+
+
